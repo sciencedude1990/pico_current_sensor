@@ -52,7 +52,7 @@ adc_20A_sensitivity = (3.3 / 65536) / 66e-3
 adc_5A = ADC(Pin(28))
 adc_20A = ADC(Pin(27))
 
-# The routing for reading the ADCs
+# The routine for reading the ADCs
 def read_ADC_timer(t):
     # Bring in the defines
     global adc_5A_average, adc_20A_average, adc_5A_rms_average, adc_20A_rms_average
